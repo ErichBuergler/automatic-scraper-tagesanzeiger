@@ -41,7 +41,7 @@
    "outputs": [],
    "source": [
     "# The file we want to save\n",
-    "filename = 'scrape-tamedia.csv'"
+    "filename = 'top_stories.csv'
    ]
   },
   {

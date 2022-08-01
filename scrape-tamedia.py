@@ -50,7 +50,7 @@ doc.select('.ArticleTeaser_title__tlltn')[0] #this gives me the top article of t
 # In[16]:
 
 
-for headline in doc.select('.ArticleTeaser_title__tlltn')[0]:
+for headline in doc.select('.ArticleTeaser_title__tlltn')[0:6]:
     print(headline.text) #that gives me the headline of the front article
 
 
@@ -71,7 +71,7 @@ link
 # In[27]:
 
 
-for headline in doc.select('.ArticleTeaser_title__tlltn')[0]:
+for headline in doc.select('.ArticleTeaser_title__tlltn')[0:6]:
     print(headline.text) #that gives me the headline of the front article
     print(link)
 
@@ -82,7 +82,7 @@ for headline in doc.select('.ArticleTeaser_title__tlltn')[0]:
 
 
 stories = []
-for headline in doc.select('.ArticleTeaser_title__tlltn')[0]:
+for headline in doc.select('.ArticleTeaser_title__tlltn')[0:6]:
     frontstory = (headline.text) #that gives me the headline of the front article
     url = (link)
     
